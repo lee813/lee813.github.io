@@ -1,0 +1,38 @@
+{
+  "name": "lee813.github.io",
+  "version": "1.0.0",
+  "description": "just another personal website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee813/lee813.github.io.git"
+  },
+  "keywords": [
+    "danyang",
+    "li"
+  ],
+  "author": "Danyang Li (lee813)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lee813/lee813.github.io/issues"
+  },
+  "homepage": "https://github.com/lee813/lee813.github.io#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "opn": "^4.0.2"
+  },
+  "devDependencies": {}
+}
